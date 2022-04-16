@@ -1,0 +1,33 @@
+/* This applies font to the webpage, Universal */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* This changes the background color of the body of the webpage, Element */
+body {
+  background-color: lemonchiffon;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* This bolds the font in the highlighted text, class */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* This changes the background color  of the contact section, Id*/
+#contact-section {
+  background-color: #f0ead6;
+}
